@@ -15,9 +15,6 @@ export default function HomeScreen() {
           </div>
         </div>
       </div>
-      <footer className="self-center mt-5 text-xs text-center text-black">
-        All rights reserved © 2025
-      </footer>
     </main>
   );
 }
