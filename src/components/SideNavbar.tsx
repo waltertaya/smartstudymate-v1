@@ -7,10 +7,7 @@ export function SideNavbar() {
       <h2 className="self-center">Add new documents</h2>
       <div className="flex flex-col items-start px-3.5 mt-4 w-full flex-1 overflow-hidden">
         <UploadArea />
-        {/* Scrollable FileList */}
-        <div className="overflow-auto flex-1 w-full">
           <FileList />
-        </div>
         <QuickLinks />
         <button className="px-16 py-7 mt-6 max-w-full text-black whitespace-nowrap bg-indigo-500 rounded-xl w-[247px] max-md:px-5 max-md:ml-2.5">
           Generate
